@@ -109,7 +109,7 @@
         <div class="container">
             <div class="hr-title hr-long center"><abbr>Ürün Kategorileri</abbr> </div>
             <div class="portfolio">
-            <!-- sedatak100 testing converted --><!-- sedatak100 testing 2 -->
+            <!-- sedatak100 testing converted --><!-- sedatak100 testing con add -->
                 <!-- Portfolio -->
                 <div id="portfolio" class="grid-layout portfolio-4-columns" data-margin="10">
                     @foreach($categories as $i => $category)
