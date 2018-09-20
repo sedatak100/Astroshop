@@ -107,8 +107,9 @@
     @if($categories->count() > 0)
     <section class="background-light m-t-30">
         <div class="container">
-            <div class="hr-title hr-long center"><abbr>Ürün Kategorileri </abbr> </div>
+            <div class="hr-title hr-long center"><abbr>Ürün Kategorileri</abbr> </div>
             <div class="portfolio">
+            <!-- sedatak100 testing  -->
                 <!-- Portfolio -->
                 <div id="portfolio" class="grid-layout portfolio-4-columns" data-margin="10">
                     @foreach($categories as $i => $category)
