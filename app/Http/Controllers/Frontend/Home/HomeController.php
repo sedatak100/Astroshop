@@ -18,7 +18,7 @@ class HomeController extends FrontendController
     {
         $blade = [];
 
-        //Kategoriler
+        //Kategoriler.
         $home_categories = config('theme.home_categories') ?? [];
         $categories = Category::where('status', 1)->whereIn('category_id', $home_categories)->get();
         $blade['categories'] = $categories;
